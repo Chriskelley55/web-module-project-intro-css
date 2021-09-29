@@ -79,10 +79,10 @@ nav a{
     background-color:#FFCD69;
     margin-right:10%;
 }
+/*TOP SECTION*/
 .top{
     position:relative;
 }
-/*TOP SECTION*/
 .left, .right{
     display:inline-block;
     text-align:center;
@@ -97,10 +97,60 @@ nav a{
 .right{
     width:55%;
     margin-left:5%;
-    position:absolute;
+    position:relative;
     top:45%;
 }
 .text{
     width:80%;
     margin:0 auto;
+}
+/*center section*/
+.center{
+    background-color:#DDB9A3;
+    color: white;
+    text-align: center;
+    width:80%;
+    margin:5%;
+}
+/*camping section*/
+.camping, .lodging{
+    width:15%;
+    text-align:center;
+    margin: auto;
+}
+.camping.p{
+    width:25%
+}
+.lodging.p{
+    width:25%
+}
+/*footer image section*/
+.yosemite{
+    background-image:url(assets/footer_img.jpg);
+    width: 100%;
+    position:relative;
+}
+footer{
+    padding:2% 0;
+    background-color: #F9E7DC
+}
+footer a{
+    display:inline-block;
+    width:10%;
+    padding:1% 0;
+    border-radius:10px;
+    text-align:center;
+    color:white;
+    }
+.orange{
+    background-color:#FF764E;
+    margin-LEFT:10%;
+}
+.blue{
+    background-color:#5ED3EB;
+    margin:0 24%;
+}
+.yellow{
+    background-color:#FFCD69;
+    margin-right:10%;
 }
